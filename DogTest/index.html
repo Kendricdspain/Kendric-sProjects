@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Personality Test by Adopting a Dog</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script type="text/javascript" src="script.js" defer="true">
+    </script>
+  </head>
+
+
+  <body>
+    <article>
+      <header>
+          <h1>Dog Lover Test</h1>
+          <div>
+            <span>RIFF</span>
+            <span>RAM</span>
+            <span>BAH</span>
+            <span>ZOO</span>
+          </div>
+      </header>
+      <h1>Do You Know Your Personality Traits Can be Revealed by Which Dog You Will Adopt?</h1>
+
+      <section class="question-name">
+        <h1>1. Pick a dog</h1>
+      </section>
+
+      <section class="wrapper">
+         
+
+
+        <div data-choice-id="blepping" name="FirstDivs" id="div1-1" onclick="check(this);" class="grid1" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -29px;" src="images/blepdog.jpg"/>
+          <img class="checkbox1" id="chkb1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" name="FirstDivs" id="div1-2"class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/happydog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" name="FirstDivs" id="div1-3" class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -30px;" src="./images/sleepingdog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" name="FirstDivs" id="div1-4" class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -25px;" src="./images/dopeydog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" name="FirstDivs" id="div1-5"class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -25px;" src="./images/burgerdog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" name="FirstDivs" id="div1-6"class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -50px;" src="./images/cartdog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" name="FirstDivs" id="div1-7"class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/nerddog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" name="FirstDivs" id="div1-8"class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/shydog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" name="FirstDivs" id="div1-9" class="grid1" onclick="check(this);" data-question-id="one">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/sleepydog.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+    
+      </section>
+
+      <section class="question-name">
+        <h1>2. Pick a dog bed</h1>
+      </section>
+
+      <section class="wrapper">
+        <div data-choice-id="blepping" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="images/blepbed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/happybed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/sleepingbed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/dopeybed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/burgerbed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/cartbed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;"src="./images/nerdbed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/shybed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" name="SecondDivs" class="grid1" onclick="check2(this);" data-question-id="two">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/sleepybed.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>3. Pick a toy for dog</h1>
+      </section>
+
+      <section class="wrapper">
+        <div data-choice-id="blepping" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;" src="images/bleptoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/happytoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/sleepingtoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;"src="./images/dopeytoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/burgertoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/carttoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/nerdtoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -40px;" src="./images/shytoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" name="ThirdDivs" class="grid1" onclick="check3(this);" data-question-id="three">
+          <img class="gridImages" style="position: relative; left: -35px;" src="./images/sleepytoy.jpg"/>
+          <img class="checkbox1" src="images/unchecked.png"/>
+        </div>
+
+      </section>
+    </article>
+
+
+
+  </body>
+</html>
