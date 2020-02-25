@@ -1,0 +1,77 @@
+.label1{
+	background-color: #161920;
+	height: 500px;
+}
+
+.line{
+	border-style: solid;
+	border-bottom: solid white 3px;
+	border-top: none;
+}
+
+.text1{
+	position: absolute;
+	background-color: #161920;
+	color: white;
+	left: 20%;
+	margin-top: 5px;
+	border-style: solid;
+	border-bottom: solid black 3px;
+	width: 60%;
+	border-top: none; border-bottom: none; border-left: none; border-right: none;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.col-md-3{
+	margin-top: 10px;
+	object-fit: cover;
+	max-width: 25%;
+}
+
+.oldPrice{
+	display: inline-block;
+	text-decoration: line-through;
+	color: red;
+}
+
+.newPrice{
+	display: inline-block;
+	color: green;
+}
+
+img{
+	display:block;
+    margin:auto;
+}
+
+.box{
+	border-style: solid;
+	height: 300px;
+	border-color: #161920;
+}
+
+.box2{
+	border-style: solid;
+	display: inline-block;
+	border-color: #161920;
+	width: 30%;
+}
+
+.box3{
+	display: inline-block;
+	border-style: solid;
+	position: relative;
+	bottom: 0px;
+	border-color: #161920;
+	height: 231px;
+	width: 69%;
+
+}
+
+.copyRight{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
